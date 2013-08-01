@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ilocala</string>
+    <string name="action_settings">Settings</string>
+    <string name="location">定位</string>
+    <string name="latilongi">latitude longitude</string>
+   
+
+</resources>
