@@ -117,7 +117,7 @@ public class MainActivity extends Activity {
 					sb.append(mLocationClient.getVersion());
 					sb.append("\nisCellChangeFlag : ");
 					sb.append(location.isCellChangeFlag());
-					//新建一个方法来展现此位置的地图
+					//新建方法来展现此位置的地图
 					showMapView(location.getLatitude(),location.getLongitude());
 					logMsg(sb.toString());
 				}
