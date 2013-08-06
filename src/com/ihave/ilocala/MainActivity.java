@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
 		option.setCoorType("bd09ll");//返回的定位结果是百度经纬度,默认值gcj02
 		option.setScanSpan(5000);//设置发起定位请求的间隔时间为5000ms
 		option.disableCache(true);//禁止启用缓存定位
-		option.setPoiNumber(5);	//最多返回POI个数	
+		option.setPoiNumber(5);	//最多返回POI-Point of Interest个数	
 		option.setPoiDistance(1000); //poi查询距离		
 		option.setPoiExtraInfo(true); //是否需要POI的电话和地址等详细信息		
 		mLocationClient.setLocOption(option);
