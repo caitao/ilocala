@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		iBMapManager = new BMapManager(getApplicationContext());
-		iBMapManager.init("A06B028628637356EE3FAC5933EFEE0BDA08DA83", null);
+		iBMapManager.init("47429da4b6e37d0f6ddd11b8c80b7f20", null);
 		setContentView(R.layout.activity_main);
 		lTextView = (TextView)findViewById(R.id.locTextView);
 		//latlonTextView = (TextView)findViewById(R.id.latlonTextView);
